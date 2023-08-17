@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SPOTIFY</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>0</y>
+      <width>1198</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nunito</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(144, 144, 144);
+font-size: 33px;
+font-family:
+
+</string>
+    </property>
+    <property name="text">
+     <string>MP3 PLAYER</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>95</y>
+      <width>531</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>pngwing.com.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>572</x>
+      <y>150</y>
+      <width>611</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nunito</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>250</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nunito</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(224, 224, 224);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: rgb(244, 244, 244);
+	border-width: 3px;
+	border-radius: 22px;
+	font-size: 44px;
+}
+
+QPushButton:hover {
+	background-color: rgb(227, 227, 227);
+}
+
+QPushButton:clicked {
+	background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>PLAY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_button">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>550</y>
+      <width>250</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(224, 224, 224);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: rgb(244, 244, 244);
+	border-width: 3px;
+	border-radius: 22px;
+	font-size: 44px;
+}
+
+QPushButton:hover {
+	background-color: rgb(227, 227, 227);
+}
+
+QPushButton:clicked {
+	background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>STOP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="load_button">
+    <property name="geometry">
+     <rect>
+      <x>879</x>
+      <y>90</y>
+      <width>301</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: rgb(224, 224, 224);
+	color: rgb(0, 0, 0);
+	border-style: solid;
+	border-color: rgb(244, 244, 244);
+	border-width: 3px;
+	border-radius: 22px;
+	font-size: 44px;
+}
+
+QPushButton:hover {
+	background-color: rgb(227, 227, 227);
+}
+
+QPushButton:clicked {
+	background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>LOAD</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
